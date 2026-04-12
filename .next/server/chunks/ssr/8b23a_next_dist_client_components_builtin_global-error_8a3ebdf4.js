@@ -1,0 +1,3 @@
+module.exports=[7802,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(32047);a.n(d("[project]/Documents/jira-subtask-creator/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},32424,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(32047);a.n(d("[project]/Documents/jira-subtask-creator/node_modules/next/dist/client/components/builtin/global-error.js"))},96713,a=>{"use strict";a.i(7802);var b=a.i(32424);a.n(b)}];
+
+//# sourceMappingURL=8b23a_next_dist_client_components_builtin_global-error_8a3ebdf4.js.map

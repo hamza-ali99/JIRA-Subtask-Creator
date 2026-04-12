@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__2f2c72c5._.js")
+R.c("server/chunks/ssr/8b23a_next_dist_baa60eed._.js")
+R.c("server/chunks/ssr/8b23a_next_dist_esm_build_templates_app-page_c24c2aa3.js")
+R.c("server/chunks/ssr/[root-of-the-server]__e99a3e0c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__31f4503a._.js")
+R.c("server/chunks/ssr/8b23a_next_dist_b8ef4f15._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f161bdc6._.js")
+R.c("server/chunks/ssr/8b23a_next_dist_client_components_599c6458._.js")
+R.c("server/chunks/ssr/8b23a_next_dist_client_components_builtin_forbidden_acac4128.js")
+R.c("server/chunks/ssr/80b94_jira-subtask-creator__next-internal_server_app__not-found_page_actions_c3d39c39.js")
+R.m(55076)
+module.exports=R.m(55076).exports

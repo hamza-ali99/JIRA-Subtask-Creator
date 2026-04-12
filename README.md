@@ -158,6 +158,20 @@ Your CSV file should have headers like:
 ```csv
 TestCase ID,Title,Priority,Status
 TC-001,Verify login with valid credentials,High,Draft
+TC-002,Verify login with invalid password,High,Draft
+TC-003,Verify logout functionality,Medium,Draft
+```
+
+**Supported columns:**
+- `TestCase ID` or `TC_ID` - Test case identifier (required)
+- `Title` or `Statement` - Test case title (required)  
+- `Priority` - Optional priority level
+- `Status` - Optional status
+- `Description` - Optional description (used in subtask body)
+
+## Project Structure
+
+```
 ├── cli/                      # CLI tool (standalone Node.js)
 │   ├── config.js             # CLI configuration
 │   ├── index.js              # CLI entry point
@@ -193,21 +207,6 @@ TC-001,Verify login with valid credentials,High,Draft
 │       └── types.ts
 ├── TestCases.csv             # Sample test cases
 └── package.json
-│   ├── settings/             # Settings page
-│   ├── layout.tsx
-│   └── page.tsx              # Main page
-├── components/
-│   ├── CookieManager.tsx     # Auth management
-│   ├── CsvDropZone.tsx       # CSV upload/paste/manual entry
-│   ├── HistoryPanel.tsx      # Recent activity
-│   ├── IssueForm.tsx         # Creation mode selection
-│   ├── ResultsModal.tsx      # Success/error display
-│   ├── SettingsDropdown.tsx  # Quick settings view
-│   └── TestCasePreview.tsx   # Test case table
-└── lib/
-    ├── config.ts             # Default settings
-    ├── jira-client.ts        # JIRA API wrapper
-    └── types.ts              # TypeScript interfaces
 ```
 
 ## Security Notes

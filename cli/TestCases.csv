@@ -1,0 +1,6 @@
+TC_ID,Statement,Priority,Status
+TC-001,Verify login with valid credentials,High,Draft
+TC-002,Verify login with invalid password,High,Draft
+TC-003,Verify logout functionality,Medium,Draft
+TC-004,Verify password reset flow,Medium,Draft
+TC-005,Verify remember me checkbox,Low,Draft
